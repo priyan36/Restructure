@@ -11,3 +11,6 @@ def home_page():
 def market_page():
     items = Item.query.all()
     return render_template("market.html", items=items)
+
+
+#end

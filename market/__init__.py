@@ -7,3 +7,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///C:/Python312/00Flask/FlaskMar
 db = SQLAlchemy(app)
 
 from market import routes
+
+
+
+#end
